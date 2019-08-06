@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+.container	{
+    position: absolute;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+#mainmap {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 36px;
+    flex: 1;
+    justify-content: center;
+    background: whitesmoke;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Massive Murray Paddle Tracking Map</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/leaflet.css"/>
+    <link rel="stylesheet" href="css/default.css"/>
+    <script src="js/leaflet.js"></script>
+
+</head>
+<body>
+<script>
+
+    const bounds = [[-35.2090895,143.4230514],[-36.1660287,146.2116082]]; // Yarrawonga to Swan Hill.
+    const startPosition = [-36.0066498,146.0149481]; // Yarrawonga Lat/Long
+    const urlTemplate = 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png'; // URL Template for tiles
+
+    const app = atd.paddle.App(bounds, startPosition, urlTemplate);
+</script>
+
+</body>
+</html>
